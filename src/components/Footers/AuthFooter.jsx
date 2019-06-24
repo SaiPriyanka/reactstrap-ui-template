@@ -30,7 +30,7 @@ class Login extends React.Component {
                       href="https://www.creative-tim.com?ref=adr-auth-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      Wellsfargo
                     </NavLink>
                   </NavItem>
                   <NavItem>

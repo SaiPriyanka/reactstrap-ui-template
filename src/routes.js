@@ -1,4 +1,5 @@
 import Index from "views/Index.jsx";
+import Template from "views/examples/Template.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Maps from "views/examples/Maps.jsx";
 import Register from "views/examples/Register.jsx";
@@ -8,12 +9,20 @@ import Icons from "views/examples/Icons.jsx";
 
 var routes = [
   {
-    path: "/index",
+    path: "/emsa-template",
+    name: "EMSA Template",
+    icon: "ni ni-circle-08 text-pink",
+    component: Template,
+    layout: "/admin"
+  },
+
+  {
+    path: "/dashboard",
     name: "Dashboard",
     icon: "ni ni-tv-2 text-primary",
     component: Index,
     layout: "/admin"
-  },
+   },
   {
     path: "/icons",
     name: "Icons",
@@ -56,5 +65,7 @@ var routes = [
     component: Register,
     layout: "/auth"
   }
+
 ];
+
 export default routes;
